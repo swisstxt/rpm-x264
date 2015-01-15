@@ -88,3 +88,5 @@ This package contains the development files.
 %{_libdir}/pkgconfig/%{name}.pc
 
 %changelog
+* Thu Jan 15 2015 Daniel Menet <daniel.menet@swisstxt.ch> -%{version}-%{release}
+- Initial release based on https://github.com/lkiesow/matterhorn-rpms/blob/master/specs/x264.spec
