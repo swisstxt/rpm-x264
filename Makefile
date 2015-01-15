@@ -34,4 +34,4 @@ build: clean getsources
 	--define "_srcrpmdir %{_topdir}" \
 
 publish:
-	echo "/opt/buildhelper/buildhelper pushrpm yum-01.stxt.media.int:8080/swisstxt-centos"
+	/opt/buildhelper/buildhelper pushrpm yum-01.stxt.media.int:8080/swisstxt-centos
